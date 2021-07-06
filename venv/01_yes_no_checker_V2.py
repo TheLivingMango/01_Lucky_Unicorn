@@ -1,4 +1,5 @@
-= show_instructions == ""
+
+show_instructions == ""
 while show_instructions.lower() !="XXX":
     show_instructions = input("Have you played this game before?").lower()
 
