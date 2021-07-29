@@ -12,5 +12,6 @@ def yes_no(question):
         else:
             print("Please answer yes / no")
 
-    show_instructions = yes_no("Have you played this game before")
-    print("You chose {}".format(show_instructions))
+show_instructions = yes_no("Have you played this game before")
+print("You chose {}".format(show_instructions))
+
