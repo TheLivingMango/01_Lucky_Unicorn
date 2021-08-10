@@ -35,9 +35,9 @@ while not valid:
         if 0 < response <=10:
 
             print("You have asked to play"
-              "with ${}".format(response))
+              " with ${}".format(response))
 
         else:
             print(error)
-            except ValueError:
+    except ValueError:
             print(error)
