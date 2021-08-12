@@ -1,20 +1,21 @@
+def chosen
 import random
 
 tokens = ["unicorn", "horse", "zebra", "donkey"]
-balence = 100
+balance = 100
 
 print(chosen)
-for item in range(0,20):
+for item in range(0, 20):
     chosen = random.choice(tokens)
     print(chosen, end=' t ')
 
     if chosen == "unicorn":
-        balence +=4
+        balance += 4
 
     elif chosen == "donkey":
-        balence -1
+        balance -= 1
 
-    else :
-        balence -0.5
+    else:
+        balance -= 0.5
 
-        print("Token : {}, Balence: ${}".format(chosen, balence))
+        print("Token : {}, balance: ${}".format(chosen, balance))
