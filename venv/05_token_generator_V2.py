@@ -1,13 +1,13 @@
-def chosen
 import random
 
 tokens = ["unicorn", "horse", "zebra", "donkey"]
 balance = 100
 
+chosen = random.choice(tokens)
 print(chosen)
 for item in range(0, 20):
-    chosen = random.choice(tokens)
-    print(chosen, end=' t ')
+
+    print(chosen, end='\t')
 
     if chosen == "unicorn":
         balance += 4
