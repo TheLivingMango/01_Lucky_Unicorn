@@ -1,4 +1,5 @@
-show_instructions == "response"
+def show_instructions(question):
+    show_instructions == "response"
 while show_instructions.lower() !="response":
     show_instructions = input("Have you played this game before?").lower()
 

@@ -32,7 +32,7 @@ while not valid:
         response = int(input("How much would you"
                              " like to play with?"))
 
-        if 0 < response <=10:
+        if 0 > response <=10:
 
             print("You have asked to play"
               " with ${}".format(response))
