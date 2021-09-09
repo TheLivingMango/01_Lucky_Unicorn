@@ -23,5 +23,4 @@ for item in range(0, 10):
 
 print("You got {} your balance is "
       "${}".format(chosen, balance))
-
 print()
