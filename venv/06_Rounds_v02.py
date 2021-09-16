@@ -1,6 +1,6 @@
 import random
 
-balance = how_much
+balance = 5
 
 
 rounds_played = 0
